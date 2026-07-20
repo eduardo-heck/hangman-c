@@ -1,0 +1,50 @@
+# Hangman Game (C)
+
+A terminal-based Hangman game developed in C.
+
+---
+
+## Features
+
+- Random word selection
+- File handling
+- ASCII interface
+- Add new words
+- Input validation
+- Header file organization
+
+---
+
+## Technologies
+
+- C
+- GCC
+- Standard C Library
+
+---
+
+## Project Structure
+src/
+    forca.c
+    forca.h
+
+data/
+    palavras.txt
+
+images/
+    preview.png
+
+---
+
+## How to Run
+
+### Linux
+
+```bash
+gcc src/forca.c -o hangman
+./hangman
+
+Windows (MinGW)
+
+gcc src/forca.c -o hangman.exe
+hangman.exe
