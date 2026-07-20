@@ -24,6 +24,8 @@ A terminal-based Hangman game developed in C.
 ---
 
 ## Project Structure
+
+```
 src/
     forca.c
     forca.h
@@ -33,6 +35,7 @@ data/
 
 images/
     preview.png
+```
 
 ---
 
@@ -43,8 +46,23 @@ images/
 ```bash
 gcc src/forca.c -o hangman
 ./hangman
+```
 
-Windows (MinGW)
+### Windows (MinGW)
 
+```bash
 gcc src/forca.c -o hangman.exe
 hangman.exe
+```
+
+---
+
+## Preview
+
+![Hangman](images/preview.png)
+
+---
+
+## Author
+
+Eduardo Müller Heck
