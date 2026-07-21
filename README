@@ -25,16 +25,16 @@ A terminal-based Hangman game developed in C.
 
 ## Project Structure
 
-```
+```text
 src/
-    forca.c
-    forca.h
+├── forca.c
+├── forca.h
 
 data/
-    palavras.txt
+└── palavras.txt
 
 images/
-    preview.png
+└── preview.png
 ```
 
 ---
